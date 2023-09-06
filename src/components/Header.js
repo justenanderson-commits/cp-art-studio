@@ -21,13 +21,13 @@ const Header = () => {
   }, [])
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:active:border-white lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:justify-evenly lg:gap-10">
+    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:justify-evenly lg:gap-10">
       <Typography
         as="li"
         variant="medium"
-        className="p-1 font-normal "
+        className="p-1 font-normal"
       >
-        <a href="/" className="flex items-center text-sage hover:text-white">
+        <a href="/" className="flex items-center text-sage hover:text-white active:text-white">
           Home
         </a>
       </Typography>
