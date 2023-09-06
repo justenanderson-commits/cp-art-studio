@@ -21,7 +21,7 @@ const Header = () => {
   }, [])
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:justify-evenly lg:gap-10">
       <Typography
         as="li"
         variant="small"
@@ -75,7 +75,7 @@ const Header = () => {
 
 
 
-          <div className="hidden flex w-9/12 items-center justify-evenly lg:block bg-black/25">{navList}</div>
+          <div className="hidden flex w-9/12 items-center lg:block bg-black/25">{navList}</div>
           <IconButton
             variant="text"
             className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
