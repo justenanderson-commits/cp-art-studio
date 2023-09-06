@@ -1,19 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
   Navbar,
-  MobileNav,
+  Collapse,
+  Card,
+  CardBody,
   Typography,
   Button,
   IconButton,
 } from '@material-tailwind/react'
 
 const Header = () => {
-  const [openNav, setOpenNav] = React.useState(false)
+  const [open, setOpen] = useState(false)
+  const toggleOpen = () => setOpen((cur) => !cur)
 
   React.useEffect(() => {
     window.addEventListener(
       'resize',
-      () => window.innerWidth >= 960 && setOpenNav(false)
+      () => window.innerWidth >= 960 && setOpen(false)
     )
   }, [])
 
@@ -85,9 +88,9 @@ const Header = () => {
             variant="text"
             className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
             ripple={false}
-            onClick={() => setOpenNav(!openNav)}
+            onClick={() => setOpen(!open)}
           >
-            {openNav ? (
+            {open ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -119,14 +122,21 @@ const Header = () => {
             )}
           </IconButton>
         </div>
-        <MobileNav open={openNav}>
+        {/* <MobileNav open={openNav}>
           <div className="container mx-auto">
             {navList}
             <Button variant="gradient" size="sm" fullWidth className="mb-2">
               <span>Buy Now</span>
             </Button>
           </div>
-        </MobileNav>
+        </MobileNav> */}
+        <Collapse open={open}>
+        <Card className="my-4 mx-auto w-9/12">
+          <CardBody className="mx-auto">
+            {navList}
+          </CardBody>
+        </Card>
+      </Collapse>
       </Navbar>
     </div>
   )
