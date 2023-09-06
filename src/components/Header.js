@@ -28,8 +28,8 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Pages
+        <a href="/" className="flex items-center">
+          Home
         </a>
       </Typography>
       <Typography
@@ -38,8 +38,8 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Account
+        <a href="/about" className="flex items-center">
+          About
         </a>
       </Typography>
       <Typography
@@ -48,8 +48,8 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Blocks
+        <a href="/testimonials" className="flex items-center">
+          Testimonials
         </a>
       </Typography>
       <Typography
@@ -58,8 +58,18 @@ const Header = () => {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Docs
+        <a href="/gallery" className="flex items-center">
+          Gallery
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
+        <a href="/contact" className="flex items-center">
+          Contact
         </a>
       </Typography>
     </ul>
@@ -67,7 +77,7 @@ const Header = () => {
 
   return (
     <div>
-      <Navbar className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4 bg-black">
+      <Navbar className="mx-auto w-screen py-2 px-4 lg:px-2 lg:py-4 bg-black">
 
 
 
@@ -75,7 +85,7 @@ const Header = () => {
 
 
 
-          <div className="hidden flex w-9/12 items-center lg:block bg-black/25">{navList}</div>
+          <div className="hidden flex w-full items-center lg:block bg-black/25">{navList}</div>
           <IconButton
             variant="text"
             className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
