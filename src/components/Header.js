@@ -67,23 +67,15 @@ const Header = () => {
 
   return (
     <div>
-      <Navbar className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4">
-        <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
-          <Typography
-            as="a"
-            href="#"
-            className="mr-4 cursor-pointer py-1.5 font-medium"
-          >
-            Material Tailwind
-          </Typography>
-          <div className="hidden lg:block">{navList}</div>
-          <Button
-            variant="gradient"
-            size="sm"
-            className="hidden lg:inline-block"
-          >
-            <span>Buy Now</span>
-          </Button>
+      <Navbar className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4 bg-black">
+
+
+
+        <div className="container mx-auto flex items-center justify-evenly text-blue-gray-900 bg-white ">
+
+
+
+          <div className="hidden flex w-9/12 items-center justify-evenly lg:block bg-black/25">{navList}</div>
           <IconButton
             variant="text"
             className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
@@ -122,14 +114,6 @@ const Header = () => {
             )}
           </IconButton>
         </div>
-        {/* <MobileNav open={openNav}>
-          <div className="container mx-auto">
-            {navList}
-            <Button variant="gradient" size="sm" fullWidth className="mb-2">
-              <span>Buy Now</span>
-            </Button>
-          </div>
-        </MobileNav> */}
         <Collapse open={open}>
         <Card className="my-4 mx-auto w-9/12">
           <CardBody className="mx-auto">
