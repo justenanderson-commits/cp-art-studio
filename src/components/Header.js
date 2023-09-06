@@ -24,51 +24,50 @@ const Header = () => {
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:justify-evenly lg:gap-10">
       <Typography
         as="li"
-        variant="small"
-        color="blue-gray"
+        variant="medium"
         className="p-1 font-normal"
       >
-        <a href="/" className="flex items-center">
+        <a href="/" className="flex items-center text-sage">
           Home
         </a>
       </Typography>
       <Typography
         as="li"
-        variant="small"
-        color="blue-gray"
+        variant="medium"
+        color="white"
         className="p-1 font-normal"
       >
-        <a href="/about" className="flex items-center">
+        <a href="/about" className="flex items-center  text-sage">
           About
         </a>
       </Typography>
       <Typography
         as="li"
-        variant="small"
-        color="blue-gray"
+        variant="medium"
+        color="white"
         className="p-1 font-normal"
       >
-        <a href="/testimonials" className="flex items-center">
+        <a href="/testimonials" className="flex items-center text-sage">
           Testimonials
         </a>
       </Typography>
       <Typography
         as="li"
-        variant="small"
-        color="blue-gray"
+        variant="medium"
+        color="white"
         className="p-1 font-normal"
       >
-        <a href="/gallery" className="flex items-center">
+        <a href="/gallery" className="flex items-center text-sage">
           Gallery
         </a>
       </Typography>
       <Typography
         as="li"
-        variant="small"
-        color="blue-gray"
+        variant="medium"
+        color="white"
         className="p-1 font-normal"
       >
-        <a href="/contact" className="flex items-center">
+        <a href="/contact" className="flex items-center text-sage">
           Contact
         </a>
       </Typography>
@@ -81,11 +80,11 @@ const Header = () => {
 
 
 
-        <div className="container mx-auto flex items-center justify-evenly text-blue-gray-900 bg-white ">
+        <div className="container mx-auto flex items-center justify-evenly text-blue-gray-900">
 
 
 
-          <div className="hidden flex w-full items-center lg:block bg-black/25">{navList}</div>
+          <div className="hidden flex w-full items-center lg:block">{navList}</div>
           <IconButton
             variant="text"
             className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
