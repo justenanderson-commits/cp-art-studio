@@ -7,6 +7,7 @@ import Testimonials from './Testimonials'
 import Gallery from './Gallery'
 import Contact from './Contact'
 
+
 function App() {
   return (
     <div className="App">
