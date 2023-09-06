@@ -21,53 +21,49 @@ const Header = () => {
   }, [])
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:justify-evenly lg:gap-10">
+    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:active:border-white lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:justify-evenly lg:gap-10">
       <Typography
         as="li"
         variant="medium"
-        className="p-1 font-normal"
+        className="p-1 font-normal "
       >
-        <a href="/" className="flex items-center text-sage">
+        <a href="/" className="flex items-center text-sage hover:text-white">
           Home
         </a>
       </Typography>
       <Typography
         as="li"
         variant="medium"
-        color="white"
         className="p-1 font-normal"
       >
-        <a href="/about" className="flex items-center  text-sage">
+        <a href="/about" className="flex items-center text-sage hover:text-white">
           About
         </a>
       </Typography>
       <Typography
         as="li"
         variant="medium"
-        color="white"
         className="p-1 font-normal"
       >
-        <a href="/testimonials" className="flex items-center text-sage">
+        <a href="/testimonials" className="flex items-center text-sage hover:text-white">
           Testimonials
         </a>
       </Typography>
       <Typography
         as="li"
         variant="medium"
-        color="white"
         className="p-1 font-normal"
       >
-        <a href="/gallery" className="flex items-center text-sage">
+        <a href="/gallery" className="flex items-center text-sage hover:text-white">
           Gallery
         </a>
       </Typography>
       <Typography
         as="li"
         variant="medium"
-        color="white"
         className="p-1 font-normal"
       >
-        <a href="/contact" className="flex items-center text-sage">
+        <a href="/contact" className="flex items-center text-sage hover:text-white">
           Contact
         </a>
       </Typography>
