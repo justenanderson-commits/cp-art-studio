@@ -21,53 +21,52 @@ const Header = () => {
   }, [])
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:justify-evenly lg:gap-10">
+    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row items-center lg:justify-evenly lg:gap-10">
       <Typography as="li" className="p-1 px-10 font-normal">
         <a
           href="/"
           className="flex items-center text-sage hover:text-white active:text-white"
         >
-          Home
+          HOME
         </a>
       </Typography>
-     <Typography as="li" className="p-1 px-10 font-normal">
+      <Typography as="li" className="p-1 px-10 font-normal">
         <a
           href="/about"
           className="flex items-center text-sage hover:text-white"
         >
-          About
+          ABOUT
         </a>
       </Typography>
-     <Typography as="li" className="p-1 px-10 font-normal">
+      <Typography as="li" className="p-1 px-10 font-normal">
         <a
           href="/testimonials"
           className="flex items-center text-sage hover:text-white"
         >
-          Testimonials
+          TESTIMONIALS
         </a>
       </Typography>
-     <Typography as="li" className="p-1 px-10 font-normal">
+      <Typography as="li" className="p-1 px-10 font-normal">
         <a
           href="/gallery"
           className="flex items-center text-sage hover:text-white"
         >
-          Gallery
+          GALLERY
         </a>
       </Typography>
-     <Typography as="li" className="p-1 px-10 font-normal">
+      <Typography as="li" className="p-1 px-10 font-normal">
         <a
           href="/contact"
           className="flex items-center text-sage hover:text-white"
         >
-          Contact
+          CONTACT
         </a>
       </Typography>
     </ul>
   )
 
   return (
-
-    <div className="p-2 bg-black sticky inset-0 z-10">
+    <div className="p-2 bg-black sticky inset-0 z-100">
       <div className="flex items-center justify-evenly">
         <div className="hidden flex items-center lg:block">{navList}</div>
         <IconButton
