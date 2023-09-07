@@ -24,7 +24,6 @@ const Header = () => {
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:justify-evenly lg:gap-10">
       <Typography
         as="li"
-        variant="medium"
         className="p-1 font-normal"
       >
         <a href="/" className="flex items-center text-sage hover:text-white active:text-white">
@@ -33,8 +32,7 @@ const Header = () => {
       </Typography>
       <Typography
         as="li"
-        variant="medium"
-        className="p-1 font-normal"
+       className="p-1 font-normal"
       >
         <a href="/about" className="flex items-center text-sage hover:text-white">
           About
@@ -42,8 +40,7 @@ const Header = () => {
       </Typography>
       <Typography
         as="li"
-        variant="medium"
-        className="p-1 font-normal"
+       className="p-1 font-normal"
       >
         <a href="/testimonials" className="flex items-center text-sage hover:text-white">
           Testimonials
@@ -51,8 +48,7 @@ const Header = () => {
       </Typography>
       <Typography
         as="li"
-        variant="medium"
-        className="p-1 font-normal"
+       className="p-1 font-normal"
       >
         <a href="/gallery" className="flex items-center text-sage hover:text-white">
           Gallery
@@ -60,8 +56,7 @@ const Header = () => {
       </Typography>
       <Typography
         as="li"
-        variant="medium"
-        className="p-1 font-normal"
+       className="p-1 font-normal"
       >
         <a href="/contact" className="flex items-center text-sage hover:text-white">
           Contact
@@ -71,8 +66,7 @@ const Header = () => {
   )
 
   return (
-    <div>
-      <Navbar className="mx-auto w-screen py-2 px-4 lg:px-2 lg:py-4 bg-black">
+      <Navbar className="w-screen mx-auto py-2 px-4 lg:px-2 lg:py-4 bg-black rounded-none">
 
 
 
@@ -127,7 +121,6 @@ const Header = () => {
         </Card>
       </Collapse>
       </Navbar>
-    </div>
   )
 }
 
