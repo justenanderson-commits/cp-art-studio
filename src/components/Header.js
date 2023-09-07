@@ -72,7 +72,7 @@ const Header = () => {
         <div className="hidden flex items-center lg:block">{navList}</div>
         <IconButton
           variant="text"
-          className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+          className="ml-auto mr-4 h-6 w-6 text-white hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
           ripple={false}
           onClick={() => setOpen(!open)}
         >
