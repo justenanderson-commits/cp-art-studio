@@ -14,12 +14,19 @@ const Home = () => {
       <Typography
         as="span"
         variant="h1"
-        className="p-1 font-normal text-9xl"
+        className="p-1 font-serif font-bold text-12xl"
         style={{ WebkitTextStroke: '2px teal' }}
       >
         CP Art
       </Typography>
-      <Typography>Studio</Typography>
+      <Typography
+        as="span"
+        variant="h1"
+        className="p-1 font-serif text-12xl"
+        style={{ WebkitTextStroke: '2px teal' }}
+      >
+        Studio
+      </Typography>
 
       <About />
       <Testimonials />
