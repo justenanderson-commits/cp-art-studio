@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
 import {
-  Navbar,
   Collapse,
   Card,
   CardBody,
   Typography,
-  Button,
   IconButton,
 } from '@material-tailwind/react'
 
