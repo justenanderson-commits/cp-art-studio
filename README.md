@@ -4,6 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## Tech Used
+- TailwindCSS
+- Material Tailwind
+- Hero Icons
+- React Router
+- Figma
+
 In the project directory, you can run:
 
 ### `npm start`
