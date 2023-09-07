@@ -108,7 +108,7 @@ const Header = () => {
         </IconButton>
       </div>
       <Collapse open={open}>
-        <Card className="my-4 mx-auto w-9/12">
+        <Card className="my-4 mx-auto w-9/12 bg-black">
           <CardBody className="mx-auto">{navList}</CardBody>
         </Card>
       </Collapse>
