@@ -64,7 +64,7 @@ const Header = () => {
   )
 
   return (
-    <div className="p-2 bg-black sticky inset-0 z-100">
+    <div className="p-2 bg-black sticky inset-0 z-9999">
       <div className="flex items-center justify-evenly">
         <div className="hidden flex items-center lg:block">{navList}</div>
         <IconButton

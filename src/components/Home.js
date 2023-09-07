@@ -11,22 +11,23 @@ const Home = () => {
         Students progress through the courses on an individual basis. Enrollment
         for new students is always open!
       </Typography>
-      <Typography
-        as="span"
-        variant="h1"
-        className="p-1 font-serif font-bold text-12xl"
-        style={{ WebkitTextStroke: '2px teal' }}
-      >
-        CP Art
-      </Typography>
-      <Typography
-        as="span"
-        variant="h1"
-        className="p-1 font-serif text-12xl"
-        style={{ WebkitTextStroke: '2px teal' }}
-      >
-        Studio
-      </Typography>
+      <div className="bg-white">
+        <Typography
+          variant="h1"
+          className="p-1 font-serif font-bold text-12xl"
+          style={{ WebkitTextStroke: '2px teal' }}
+        >
+          CP Art
+        </Typography>
+        <Typography
+          as="span"
+          variant="h1"
+          className="p-1 font-serif text-12xl"
+          style={{ WebkitTextStroke: '2px teal' }}
+        >
+          Studio
+        </Typography>
+      </div>
 
       <About />
       <Testimonials />
