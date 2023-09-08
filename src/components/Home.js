@@ -16,25 +16,25 @@ const Home = () => {
       <div
         id="cp-title-container"
         className="flex justify-center items-center"
-        style={{ width: '100%', height: '200px' }}
+        style={{ width: '100%', height: '180px' }}
       >
         <Typography
           variant="h1"
-          className="pr-24 font-serif font-bold text-12xl"
-          style={{ WebkitTextStroke: '2px teal' }}
+          className="pr-24 font-serif font-bold text-11xl"
+          style={{ WebkitTextStroke: '3px teal' }}
         >
           CP Art
         </Typography>
       </div>
       <div
         className="flex items-center justify-center"
-        style={{ width: '100%', height: '200px' }}
+        style={{ width: '100%', height: '180px' }}
       >
         <Typography
           as="span"
           variant="h1"
-          className="pl-24 font-serif text-12xl"
-          style={{ WebkitTextStroke: '2px teal' }}
+          className="pl-24 font-serif text-11xl"
+          style={{ WebkitTextStroke: '3px teal' }}
         >
           Studio
         </Typography>
