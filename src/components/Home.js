@@ -7,8 +7,8 @@ import { Button, Card, Typography } from '@material-tailwind/react'
 const Home = () => {
   return (
     <div className="relative home-page text-white text-2xl min-h-screen bg-black pt-8 lg:pt-20 flex flex-col items-center">
-      <div className="mr-auto -mt-8 mb-2 w-5/12">
-        <Typography className="mr-auto px-4">
+      <div className="mr-auto pl-10 -mt-10 mb-6 w-5/12">
+        <Typography className="text-xl mr-auto px-4">
           Students progress through the courses on an individual basis.
           Enrollment for new students is always open!
         </Typography>
