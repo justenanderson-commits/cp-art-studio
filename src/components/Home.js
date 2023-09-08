@@ -8,7 +8,7 @@ const Home = () => {
   const handleClick = () => {}
 
   return (
-    <div className="relative home-page text-white text-2xl min-h-screen bg-black pt-8 lg:pt-20 flex flex-col items-center">
+    <div className="relative home-page text-white text-2xl min-h-screen bg-black pt-8 lg:pt-20 flex flex-col items-center z-0">
       <div className="mr-auto pl-10 -mt-10 mb-6 w-5/12">
         <Typography className="text-xl mr-auto px-4">
           Students progress through the courses on an individual basis.
