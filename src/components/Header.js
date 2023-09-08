@@ -23,7 +23,7 @@ const Header = () => {
 
   const navList = (
     <ul className="mb-4 text-teal mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row items-center lg:justify-evenly lg:gap-10">
-      <Typography as="li" className="p-1 px-10 font-normal">
+      <Typography as="li" className="pt-2 px-10 font-normal">
         <a
           href="/"
           className="flex items-center hover:text-white active:text-white"
@@ -31,7 +31,7 @@ const Header = () => {
           HOME
         </a>
       </Typography>
-      <Typography as="li" className="p-1 px-10 font-normal">
+      <Typography as="li" className="pt-2 px-10 font-normal">
         <a
           href="/about"
           className="flex items-center hover:text-white active:text-white"
@@ -39,7 +39,7 @@ const Header = () => {
           ABOUT
         </a>
       </Typography>
-      <Typography as="li" className="p-1 px-10 font-normal">
+      <Typography as="li" className="pt-2 px-10 font-normal">
         <a
           href="/testimonials"
           className="flex items-center hover:text-white active:text-white"
@@ -47,7 +47,7 @@ const Header = () => {
           TESTIMONIALS
         </a>
       </Typography>
-      <Typography as="li" className="p-1 px-10 font-normal">
+      <Typography as="li" className="pt-2 px-10 font-normal">
         <a
           href="/gallery"
           className="flex items-center hover:text-white active:text-white"
@@ -55,7 +55,7 @@ const Header = () => {
           GALLERY
         </a>
       </Typography>
-      <Typography as="li" className="p-1 px-10 font-normal">
+      <Typography as="li" className="pt-2 px-10 font-normal">
         <a
           href="/contact"
           className="flex items-center hover:text-white active:text-white"
