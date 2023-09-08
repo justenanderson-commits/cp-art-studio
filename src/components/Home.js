@@ -17,36 +17,44 @@ const Home = () => {
           Enrollment for new students is always open!
         </Typography>
       </div>
-      {/* This is the start of the grid */}
+
+
+
+
+
+
+
 
       {/* This is the container for CP Art and the ceramics image */}
-      <div className='flex'>
-      
+      <div className="flex items-baseline -mt-20">
         <div
-          className="flex items-center justify-center"
+          className="flex items-center justify-center -mb-6"
           style={{ width: '100%', height: '180px' }}
         >
           <Typography
             variant="h1"
-            className="pr-24 font-serif font-bold text-11xl"
+            className="pr-20 font-serif font-bold text-11xl mb-0"
             style={{ WebkitTextStroke: '3px teal' }}
           >
             CP Art
           </Typography>
         </div>
-        <img
-          src={ceramics}
-          alt="boy working with clay"
-          className="mr-0 ml-12 h-48"
-        />
+        <div>
+          <img
+            src={ceramics}
+            alt="boy working with clay"
+            className="mr-0 ml-8 h-80"
+          />
+        </div>
       </div>
+      {/* End CP Art Aspen ceramics container */}
 
       {/* This is the container for Studio and the aspens image */}
-      <div className="flex">
+      <div className="flex items-start bg-white">
         <img
           src={aspens}
           alt="aspen tree painting"
-          className="ml-0 mr-12 h-48"
+          className="ml-0 mr-12 h-60"
         />
         <div
           className="flex justify-center items-center"
@@ -61,11 +69,9 @@ const Home = () => {
             Studio
           </Typography>
         </div>
-
-        {/* This is the end of the containers */}
       </div>
+        {/* This is the end of the Studio and Aspen container */}
 
-      {/* This is the end of the grid */}
       <div className="mt-6 ml-60 pl-40">
         <a href="mailto:conniesartstudio@yahoo.com">
           <Button className="rounded-none bg-white text-black text-2xl py-1 px-2 capitalize hover:scale-110">
