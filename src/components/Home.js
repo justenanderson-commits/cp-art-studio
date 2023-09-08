@@ -18,7 +18,10 @@ const Home = () => {
         </Typography>
       </div>
 
-
+{/* The approach I used on Friday is flawed. What I need to do is to set up a grid like the drawing I made.
+As I form the grid (3 columns, with the center column split into 2 rows), I can fill each with a bg color.
+Then I replace each bg color with the associated element from the code below and position accordingly
+*/}
 
 
 
