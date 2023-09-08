@@ -41,9 +41,11 @@ const Home = () => {
           Studio
         </Typography>
       </div>
+      <div className='mt-6 ml-60 pl-40'>
       <a href="mailto:conniesartstudio@yahoo.com">
         <Button className='rounded-none bg-white text-black text-2xl py-1 px-2 capitalize'>Email Connie</Button>
       </a>
+      </div>
       <About />
       <Testimonials />
       <Gallery />
