@@ -22,7 +22,7 @@ const Home = () => {
 
       <div
         id="grid-container"
-        className="h-80 bg-white flex mt-4"
+        className="flex mt-8"
       >
         <div 
           id="left-image-container" 
@@ -30,7 +30,7 @@ const Home = () => {
           <img
             src={aspens}
             alt="aspen tree painting"
-            className="mr-auto mb-0 h-60"
+            className="mr-auto mb-0 h-80"
           />
         </div>
         <div 
@@ -38,11 +38,10 @@ const Home = () => {
           className="w-260 flex flex-col">
           <div 
             id='upper-center'
-            className='bg-white flex align-baseline'
             >
               <Typography
                variant="h1"
-               className="ml-10 pt-10 pr-20 font-serif font-bold text-11xl flex align-baseline"
+               className="ml-10 pt-10 pr-20 font-serif font-bold text-11xl"
                style={{ WebkitTextStroke: '3px teal' }}
               >
                 CP Art
@@ -67,7 +66,7 @@ const Home = () => {
           <img
             src={ceramics}
             alt="boy working with clay"
-            className="ml-auto h-60"
+            className="ml-auto h-80"
           />
         </div>
       </div>
