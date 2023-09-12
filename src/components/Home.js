@@ -17,9 +17,6 @@ const Home = () => {
           Enrollment for new students is always open!
         </Typography>
       </div>
-
-      {/* ////////////////////////////////////////////// */}
-
       <div
         id="grid-container"
         className="flex mt-8"
@@ -62,7 +59,7 @@ const Home = () => {
 
           </div>
         </div>
-        <div id="right-image-container" className="flex align-baseline">
+        <div id="right-image-container">
           <img
             src={ceramics}
             alt="boy working with clay"
@@ -71,15 +68,17 @@ const Home = () => {
         </div>
       </div>
 
-      {/* ////////////////////////////////////////////// */}
-
-      <div className="mt-10 ml-60 pl-40">
+      <div className="-mt-8 ml-60 pl-40">
         <a href="mailto:conniesartstudio@yahoo.com">
           <Button className="rounded-none bg-white text-black text-2xl py-1 px-2 capitalize hover:scale-110">
             Email Connie
           </Button>
         </a>
       </div>
+      <Typography
+      >
+
+      </Typography>
       <About />
       <Testimonials />
       <Gallery />
