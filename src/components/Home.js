@@ -42,7 +42,7 @@ const Home = () => {
             >
               <Typography
                variant="h1"
-               className="pt-10 pr-20 font-serif font-bold text-11xl flex align-baseline"
+               className="ml-10 pt-10 pr-20 font-serif font-bold text-11xl flex align-baseline"
                style={{ WebkitTextStroke: '3px teal' }}
               >
                 CP Art
@@ -55,7 +55,7 @@ const Home = () => {
               <Typography
                as="span"
                variant="h1"
-               className="pl-24 pt-28 font-serif text-11xl"
+               className="mx-20 pl-32 pt-28 font-serif text-11xl"
                style={{ WebkitTextStroke: '3px teal' }}
                >
                Studio
