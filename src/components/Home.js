@@ -18,18 +18,35 @@ const Home = () => {
         </Typography>
       </div>
 
-{/* The approach I used on Friday is flawed. What I need to do is to set up a grid like the drawing I made.
+      {/* The approach I used on Friday is flawed. What I need to do is to set up a grid like the drawing I made.
 As I form the grid (3 columns, with the center column split into 2 rows), I can fill each with a bg color.
 Then I replace each bg color with the associated element from the code below and position accordingly
 */}
-
-
-
-
-
+      <div
+        id="grid-container"
+        className="h-48 w-screen border solid grid grid-cols-3"
+      >
+        <div id="left-image-container" className="h-full">
+          {' '}
+          <img
+            src={aspens}
+            alt="aspen tree painting"
+            className="ml-0 mr-12 h-60"
+          />
+        </div>
+        <div id="center-text-container" className='w-8/12 bg-yellow'>
+          {/* <div id='upper-center'></div>
+    <div id='lower-center'></div> */}
+        </div>
+        <div id="right-image-container"><img
+            src={ceramics}
+            alt="boy working with clay"
+            className="ml-auto h-60"
+          /></div>
+      </div>
 
       {/* This is the container for CP Art and the ceramics image */}
-      <div className="flex items-baseline -mt-20">
+      <div className="flex items-baseline mt-20">
         <div
           className="flex items-center justify-center -mb-6"
           style={{ width: '100%', height: '180px' }}
@@ -73,7 +90,7 @@ Then I replace each bg color with the associated element from the code below and
           </Typography>
         </div>
       </div>
-        {/* This is the end of the Studio and Aspen container */}
+      {/* This is the end of the Studio and Aspen container */}
 
       <div className="mt-6 ml-60 pl-40">
         <a href="mailto:conniesartstudio@yahoo.com">
