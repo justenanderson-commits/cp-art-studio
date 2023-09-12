@@ -11,8 +11,8 @@ const Home = () => {
 
   return (
     <div className="relative home-page text-white text-2xl min-h-screen bg-black pt-8 lg:pt-20 flex flex-col items-center z-0">
-      <div className="mr-auto pl-10 -mt-10 mb-6 w-5/12">
-        <Typography className="text-xl mr-auto px-4">
+      <div className="flex justify-center mx-auto -mt-10 mb-12 w-8/12">
+        <Typography className="text-xl">
           Students progress through the courses on an individual basis.
           Enrollment for new students is always open!
         </Typography>
@@ -76,13 +76,14 @@ const Home = () => {
         </a>
       </div>
       <Typography
+      className='my-8 w-7/12 text-2xl text-teal/80 '
       >
-
+        "Art teaches us to feel good about ourselves and about the world around us. To see the beauty and endlessness of this wonderful world, one only needs to look through the eye of an artist." - Connie Parrish
       </Typography>
-      <About />
+      {/* <About />
       <Testimonials />
       <Gallery />
-      <Contact />
+      <Contact /> */}
     </div>
   )
 }
