@@ -22,7 +22,7 @@ const Home = () => {
 
       <div
         id="grid-container"
-        className="h-48 w-screen grid grid-cols-3"
+        className="h-80 bg-white flex mt-4"
       >
         <div 
           id="left-image-container" 
@@ -35,14 +35,14 @@ const Home = () => {
         </div>
         <div 
           id="center-text-container" 
-          className="w-80">
+          className="w-260 flex flex-col">
           <div 
             id='upper-center'
-            className='bg-slate-700'
+            className='bg-white flex align-baseline'
             >
               <Typography
                variant="h1"
-               className="pr-20 font-serif font-bold text-11xl mb-0"
+               className="pt-10 pr-20 font-serif font-bold text-11xl flex align-baseline"
                style={{ WebkitTextStroke: '3px teal' }}
               >
                 CP Art
@@ -55,7 +55,7 @@ const Home = () => {
               <Typography
                as="span"
                variant="h1"
-               className="pl-24 font-serif text-11xl"
+               className="pl-24 pt-28 font-serif text-11xl"
                style={{ WebkitTextStroke: '3px teal' }}
                >
                Studio
@@ -74,7 +74,7 @@ const Home = () => {
 
       {/* ////////////////////////////////////////////// */}
 
-      <div className="mt-6 ml-60 pl-40">
+      <div className="mt-10 ml-60 pl-40">
         <a href="mailto:conniesartstudio@yahoo.com">
           <Button className="rounded-none bg-white text-black text-2xl py-1 px-2 capitalize hover:scale-110">
             Email Connie
