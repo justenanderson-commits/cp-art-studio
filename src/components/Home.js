@@ -22,11 +22,11 @@ const Home = () => {
 
       <div
         id="grid-container"
-        className="h-48 w-screen border solid grid grid-cols-3"
+        className="h-48 w-screen grid grid-cols-3"
       >
         <div 
           id="left-image-container" 
-          className="h-full">
+          className="">
           <img
             src={aspens}
             alt="aspen tree painting"
@@ -35,7 +35,7 @@ const Home = () => {
         </div>
         <div 
           id="center-text-container" 
-          className="w-8/12 bg-yellow">
+          className="w-80">
           <div 
             id='upper-center'
             className='bg-slate-700'
@@ -72,52 +72,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* This is the container for CP Art and the ceramics image */}
-      <div className="flex items-baseline mt-20">
-        <div
-          className="flex items-center justify-center -mb-6"
-          style={{ width: '100%', height: '180px' }}
-        >
-          <Typography
-            variant="h1"
-            className="pr-20 font-serif font-bold text-11xl mb-0"
-            style={{ WebkitTextStroke: '3px teal' }}
-          >
-            CP Art
-          </Typography>
-        </div>
-        <div>
-          <img
-            src={ceramics}
-            alt="boy working with clay"
-            className="mr-0 ml-8 h-80"
-          />
-        </div>
-      </div>
-      {/* End CP Art Aspen ceramics container */}
-
-      {/* This is the container for Studio and the aspens image */}
-      <div className="flex items-start bg-white">
-        <img
-          src={aspens}
-          alt="aspen tree painting"
-          className="ml-0 mr-12 h-60"
-        />
-        <div
-          className="flex justify-center items-center"
-          style={{ width: '100%', height: '180px' }}
-        >
-          <Typography
-            as="span"
-            variant="h1"
-            className="pl-24 font-serif text-11xl"
-            style={{ WebkitTextStroke: '3px teal' }}
-          >
-            Studio
-          </Typography>
-        </div>
-      </div>
-      {/* This is the end of the Studio and Aspen container */}
+      {/* ////////////////////////////////////////////// */}
 
       <div className="mt-6 ml-60 pl-40">
         <a href="mailto:conniesartstudio@yahoo.com">
