@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Hero Icons
 - React Router
 - Figma
+- MicroModal
 
 In the project directory, you can run:
 
