@@ -38,26 +38,6 @@ const About = () => {
           alt="C and sherm"
           src={connieAndSherman}
         />
-
-        {/* <div className="absolute w-[1506px] h-[72px] top-0 left-[-5px] bg-[#1e1d1d]">
-          <div className="left-[385px] absolute top-[22px] [font-family:'Inter-Medium',Helvetica] font-medium text-[#a0bfb5] text-[22px] tracking-[0] leading-[normal]">
-            HOME
-          </div>
-          <div className="left-[509px] absolute top-[22px] [font-family:'Inter-Medium',Helvetica] font-medium text-[#a0bfb5] text-[22px] tracking-[0] leading-[normal]">
-            ABOUT
-          </div>
-          <div className="left-[644px] absolute top-[22px] [font-family:'Inter-Medium',Helvetica] font-medium text-[#a0bfb5] text-[22px] tracking-[0] leading-[normal]">
-            TESTIMONIALS
-          </div>
-          <div className="inline-flex items-start gap-[9.96px] absolute top-[23px] left-[864px]">
-            <div className="relative w-fit mt-[-1.00px] [font-family:'Inter-Medium',Helvetica] font-medium text-[#a0bfb5] text-[22px] tracking-[0] leading-[normal]">
-              GALLERY
-            </div>
-          </div>
-          <div className="absolute top-[22px] left-[1020px] [font-family:'Inter-Medium',Helvetica] font-medium text-[#a0bfb5] text-[22px] tracking-[0] leading-[normal]">
-            CONTACT
-          </div>
-        </div> */}
       </div>
     </div>
   )
