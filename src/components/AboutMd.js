@@ -5,11 +5,16 @@ import canyon from '../assets/m_sherm_canyon 1.png'
 const About = () => {
   return (
     <div className="bg-black flex flex-row justify-center w-full">
-      <div className="bg-black overflow-hidden lg:w-[1506px] lg:h-[1676px] md:w-[834px] md:h-[2121px] relative">
-        <div className="absolute lg:top-[50px] lg:left-[639px] md:top-[11px] md:left-[308px] [font-family:'Playfair_Display-Regular',Helvetica] font-normal text-white text-[81px] tracking-[0] leading-[normal]">
+      <div className="bg-black w-[834px] h-[2121px] relative">
+        <div className="absolute top-[11px] left-[308px] [font-family:'Playfair_Display-Regular',Helvetica] font-normal text-white text-[81px] tracking-[0] leading-[normal]">
           About
         </div>
-        <p className="absolute w-[1140px] top-[779px] left-[186px] [font-family:'Inter-Regular',Helvetica] font-normal text-white text-[31.9px] tracking-[0] leading-[normal]">
+        <img
+          className="absolute w-[834px] h-[490px] top-[142px] left-0 object-cover"
+          alt="M sherm canyon"
+          src="m-sherm-canyon-1.png"
+        />
+        <p className="absolute w-[724px] top-[672px] left-[55px] [font-family:'Inter-Regular',Helvetica] font-normal text-white text-[31.9px] tracking-[0] leading-[normal]">
           Connie is a Colorado native, her love of nature and vast wilderness
           adventures contribute greatly to her own artistry. If she&#39;s not en
           plein air painting in her Monet-style garden or enjoying the serenity
@@ -24,23 +29,16 @@ const About = () => {
           mastery are clearly evident.
         </p>
         <img
-          className="absolute w-[1140px] h-[490px] top-[225px] left-[186px] object-cover"
-          alt="M sherm canyon"
-          src={canyon}
-        />
-        <img
-          className="absolute w-[518px] h-[330px] top-[1291px] left-[186px] object-cover"
+          className="absolute w-[518px] h-[330px] top-[1377px] left-[158px] object-cover"
           alt="C and m"
-          src={connieAndDaughter}
+          src="c-and-m-1.png"
         />
         <img
-          className="absolute w-[518px] h-[330px] top-[1291px] left-[808px] object-cover"
+          className="absolute w-[518px] h-[330px] top-[1759px] left-[150px] object-cover"
           alt="C and sherm"
-          src={connieAndSherman}
+          src="c-and-sherm-1.png"
         />
       </div>
     </div>
   )
 }
-
-export default About
