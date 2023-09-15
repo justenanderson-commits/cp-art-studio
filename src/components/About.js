@@ -9,14 +9,14 @@ const About = () => {
         <div className="[font-family:'Playfair_Display-Regular',Helvetica] font-normal text-white text-5xl lg:text-6xl md:text-4xl text-center my-8">
           About
           <div className="flex justify-center">
-         <img
-          className="w-full lg:w-[1140px] lg:h-[490px] md:w-[834px] md:h-[424px] object-cover mt-4"
-          alt="M sherm canyon"
-          src={canyon}
-        /> 
+            <img
+              className="w-full lg:w-[1140px] lg:h-[490px] md:w-[834px] md:h-[424px] object-cover mt-4"
+              alt="M sherm canyon"
+              src={canyon}
+            />
+          </div>
         </div>
-        </div>
-        <p className="[font-family:'Inter-Regular',Helvetica] font-normal text-white text-xl lg:text-2xl md:text-lg text-left lg:mx-32">
+        <p className="[font-family:'Inter-Regular',Helvetica] font-normal text-white text-xl lg:text-2xl md:text-lg text-left lg:mx-36">
           Connie is a Colorado native, her love of nature and vast wilderness
           adventures contribute greatly to her own artistry. If she&#39;s not en
           plein air painting in her Monet-style garden or enjoying the serenity
@@ -30,20 +30,18 @@ const About = () => {
           emphasis in Leadership. Her excellence in education and artistic
           mastery are clearly evident.
         </p>
-        <div className="lg:flex">
-          
+        <div className="lg:flex lg:justify-center">
           <img
-            className="w-full lg:w-[518px] lg:h-[330px] md:w-[370px] md:h-[237px] object-cover mt-4"
+            className="w-full lg:w-4/12 md:w-1/2 object-cover mt-4 lg:m-8"
             alt="C and sherm"
             src={connieAndSherman}
           />
           <img
-            className="w-full lg:w-[518px] lg:h-[330px] md:w-[370px] md:h-[237px] object-cover mt-4"
+            className="w-full lg:w-4/12 md:w-1/2 object-cover mt-4 lg:m-8"
             alt="C and m"
             src={connieAndDaughter}
           />
         </div>
-        
       </div>
     </div>
   )
