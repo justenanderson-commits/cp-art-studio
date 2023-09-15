@@ -10,13 +10,13 @@ const About = () => {
           About
           <div className="flex justify-center">
             <img
-              className="w-full lg:w-[1140px] lg:h-[490px] md:w-[834px] md:h-[424px] object-cover mt-4"
+              className="w-full lg:w-3/4 lg:h-[490px] md:w-5/6 md:h-[424px] object-cover mt-4"
               alt="M sherm canyon"
               src={canyon}
             />
           </div>
         </div>
-        <p className="[font-family:'Inter-Regular',Helvetica] font-normal text-white text-xl lg:text-2xl md:text-lg text-left lg:mx-36">
+        <p className="[font-family:'Inter-Regular',Helvetica] font-normal text-white text-xl lg:text-2xl md:text-lg text-left lg:mx-44">
           Connie is a Colorado native, her love of nature and vast wilderness
           adventures contribute greatly to her own artistry. If she&#39;s not en
           plein air painting in her Monet-style garden or enjoying the serenity
@@ -32,12 +32,12 @@ const About = () => {
         </p>
         <div className="lg:flex lg:justify-center">
           <img
-            className="w-full lg:w-4/12 md:w-1/2 object-cover mt-4 lg:m-8"
+            className="w-full lg:w-4/12 md:w-1/2 object-cover mt-4 lg:m-8 lg:mx-12"
             alt="C and sherm"
             src={connieAndSherman}
           />
           <img
-            className="w-full lg:w-4/12 md:w-1/2 object-cover mt-4 lg:m-8"
+            className="w-full lg:w-4/12 md:w-1/2 object-cover mt-4 lg:m-8 lg:mx-12"
             alt="C and m"
             src={connieAndDaughter}
           />
