@@ -1,5 +1,7 @@
 import arrow from '../assets/arrow.svg'
 import owlPainting from '../assets/painting_owl_and_cactus.png'
+import butterflyPainting from '../assets/butterfly_painting.png'
+import garlicArt from '../assets/garlic_art.png'
 
 const TestimonialsSmall = () => {
   return (
@@ -33,7 +35,7 @@ const TestimonialsSmall = () => {
         />
         <img
           className="absolute w-[313px] h-[292px] top-0 left-0 object-cover"
-          alt="Painting owl and"
+          alt="artist painting owl and cactus"
           src={ owlPainting }
         />
       </div>
@@ -58,7 +60,7 @@ const TestimonialsSmall = () => {
         <img
           className="absolute w-[315px] h-[291px] top-0 left-[398px] object-cover"
           alt="Butterfly painting"
-          src="butterfly-painting.png"
+          src={butterflyPainting}
         />
       </div>
       <div className="absolute w-[308px] h-[632px] top-[193px] left-[765px]">
@@ -81,7 +83,7 @@ const TestimonialsSmall = () => {
         <img
           className="absolute w-[308px] h-[292px] top-0 left-0 object-cover"
           alt="Garlic art"
-          src="garlic-art.png"
+          src={garlicArt}
         />
       </div>
     </div>
