@@ -1,3 +1,5 @@
+import arrow from '../assets/arrow.svg'
+
 const TestimonialsSmall = () => {
   return (
     <div className="relative w-[1073px] h-[952px]">
@@ -25,8 +27,8 @@ const TestimonialsSmall = () => {
         </div>
         <img
           className="w-[30px] top-[256px] left-[445px] absolute h-[20px]"
-          alt="Vector"
-          src="vector-6.svg"
+          alt="arrow"
+          src={ arrow }
         />
         <img
           className="absolute w-[313px] h-[292px] top-0 left-0 object-cover"
@@ -49,8 +51,8 @@ const TestimonialsSmall = () => {
         </div>
         <img
           className="w-[30px] top-[250px] left-[137px] absolute h-[20px]"
-          alt="Vector"
-          src="vector-7.svg"
+          alt="arrow"
+          src={ arrow }
         />
         <img
           className="absolute w-[315px] h-[291px] top-0 left-[398px] object-cover"
@@ -72,8 +74,8 @@ const TestimonialsSmall = () => {
         </div>
         <img
           className="w-[23px] top-[586px] left-[128px] absolute h-[20px]"
-          alt="Vector"
-          src="vector-8.svg"
+          alt="arrow"
+          src={ arrow }
         />
         <img
           className="absolute w-[308px] h-[292px] top-0 left-0 object-cover"
