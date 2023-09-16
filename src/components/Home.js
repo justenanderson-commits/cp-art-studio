@@ -5,6 +5,7 @@ import Contact from './Contact'
 import { Button, Card, Typography } from '@material-tailwind/react'
 import aspens from '../assets/aspens.jpg'
 import ceramics from '../assets/ceramics.jpeg'
+import TestimonialsSmall from './TestionialsSmall'
 
 const Home = () => {
   const handleClick = () => {}
@@ -80,6 +81,7 @@ const Home = () => {
       >
         "Art teaches us to feel good about ourselves and about the world around us. To see the beauty and endlessness of this wonderful world, one only needs to look through the eye of an artist." - Connie Parrish
       </Typography>
+      <TestimonialsSmall/>
       {/* <About />
       <Testimonials />
       <Gallery />
