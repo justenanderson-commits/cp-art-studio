@@ -6,9 +6,7 @@ import garlicArt from '../assets/garlic_art.png'
 const TestimonialsSmall = () => {
   return (
     <div className="relative w-[1073px] h-[952px]">
-      <div className="absolute -top-px left-[317px] [font-family:'Playfair_Display-Regular',Helvetica] font-normal text-white text-[76.6px] text-center tracking-[0] leading-[normal]">
-        Testimonials
-      </div>
+
       <div className="absolute w-[269px] h-[73px] top-[879px] left-[402px]">
         <div className="absolute top-[23px] left-[16px] [font-family:'Inter-SemiBold',Helvetica] font-semibold text-white text-[20.5px] text-right tracking-[0] leading-[normal]">
           Read More Testimonials
