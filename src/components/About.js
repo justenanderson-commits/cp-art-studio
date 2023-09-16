@@ -16,7 +16,7 @@ const About = () => {
             />
           </div>
         </div>
-        <p className="[font-family:'Inter-Regular',Helvetica] font-normal text-white text-xl lg:text-2xl md:text-lg text-left mx-6 lg:mx-44">
+        <p className="[font-family:'Inter-Regular',Helvetica] font-normal text-white text-xl lg:text-2xl md:text-lg text-left mx-6 md:mx-16 lg:mx-44">
           Connie is a Colorado native, her love of nature and vast wilderness
           adventures contribute greatly to her own artistry. If she&#39;s not en
           plein air painting in her Monet-style garden or enjoying the serenity
@@ -31,14 +31,14 @@ const About = () => {
           mastery are clearly evident.
         </p>
       </div>
-        <div className="lg:flex lg:justify-center md:flex md:justify-center">
+        <div className="lg:w-3/4 lg:flex lg:justify-center md:flex md:justify-center">
           <img
-            className="w-full lg:w-4/12 md:w-2/5 object-cover mt-4 md:mx-4 lg:m-8 lg:mx-12"
+            className="w-full lg:w-6/12 md:w-2/5 object-cover mt-4 md:mx-4 lg:my-8 lg:mr-6"
             alt="C and sherm"
             src={connieAndSherman}
           />
           <img
-            className="w-full lg:w-4/12 md:w-2/5 object-cover mt-4 md:mx-4 lg:m-8 lg:mx-12"
+            className="w-full lg:w-6/12 md:w-2/5 object-cover mt-4 md:mx-4 lg:my-8 lg:ml-6"
             alt="C and m"
             src={connieAndDaughter}
           />
