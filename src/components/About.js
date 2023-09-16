@@ -30,19 +30,19 @@ const About = () => {
           emphasis in Leadership. Her excellence in education and artistic
           mastery are clearly evident.
         </p>
-        <div className="lg:flex lg:justify-center">
+      </div>
+        <div className="lg:flex lg:justify-center md:flex md:justify-center">
           <img
-            className="w-full lg:w-4/12 md:w-1/2 object-cover mt-4 lg:m-8 lg:mx-12"
+            className="w-full lg:w-4/12 md:w-2/5 object-cover mt-4 md:mx-4 lg:m-8 lg:mx-12"
             alt="C and sherm"
             src={connieAndSherman}
           />
           <img
-            className="w-full lg:w-4/12 md:w-1/2 object-cover mt-4 lg:m-8 lg:mx-12"
+            className="w-full lg:w-4/12 md:w-2/5 object-cover mt-4 md:mx-4 lg:m-8 lg:mx-12"
             alt="C and m"
             src={connieAndDaughter}
           />
         </div>
-      </div>
     </div>
   )
 }
