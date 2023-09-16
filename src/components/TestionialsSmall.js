@@ -1,4 +1,5 @@
 import arrow from '../assets/arrow.svg'
+import owlPainting from '../assets/painting_owl_and_cactus.png'
 
 const TestimonialsSmall = () => {
   return (
@@ -33,7 +34,7 @@ const TestimonialsSmall = () => {
         <img
           className="absolute w-[313px] h-[292px] top-0 left-0 object-cover"
           alt="Painting owl and"
-          src="painting-owl-and-cactus.png"
+          src={ owlPainting }
         />
       </div>
       <div className="absolute w-[713px] h-[293px] top-[535px] left-0">
