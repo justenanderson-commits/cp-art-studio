@@ -32,7 +32,7 @@ const Home = () => {
             className="mr-auto mb-0 h-80"
           />
         </div>
-        <div 
+        <title 
           id="center-text-container" 
           className="w-260 flex flex-col">
           <div 
@@ -60,7 +60,7 @@ const Home = () => {
               </Typography>
 
           </div>
-        </div>
+        </title>
         <div id="right-image-container">
           <img
             src={ceramics}
@@ -86,10 +86,6 @@ const Home = () => {
     
 
       <TestimonialsSmall/>
-      {/* <About />
-      <Testimonials />
-      <Gallery />
-      <Contact /> */}
     </div>
   )
 }
