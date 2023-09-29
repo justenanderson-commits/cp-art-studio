@@ -1,4 +1,5 @@
 import About from './About'
+import Box from './Box'
 import Testimonials from './Testimonials'
 import Gallery from './Gallery'
 import Contact from './Contact'
@@ -81,6 +82,9 @@ const Home = () => {
       >
         "Art teaches us to feel good about ourselves and about the world around us. To see the beauty and endlessness of this wonderful world, one only needs to look through the eye of an artist." - Connie Parrish
       </Typography>
+      <Box />
+    
+
       <TestimonialsSmall/>
       {/* <About />
       <Testimonials />
