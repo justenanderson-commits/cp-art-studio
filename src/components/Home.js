@@ -1,10 +1,12 @@
 import About from './About'
+import Box from './Box'
 import Testimonials from './Testimonials'
 import Gallery from './Gallery'
 import Contact from './Contact'
 import { Button, Card, Typography } from '@material-tailwind/react'
 import aspens from '../assets/aspens.jpg'
 import ceramics from '../assets/ceramics.jpeg'
+import TestimonialsSmall from './TestionialsSmall'
 
 const Home = () => {
   const handleClick = () => {}
@@ -30,7 +32,7 @@ const Home = () => {
             className="mr-auto mb-0 h-80"
           />
         </div>
-        <div 
+        <title 
           id="center-text-container" 
           className="w-260 flex flex-col">
           <div 
@@ -58,7 +60,7 @@ const Home = () => {
               </Typography>
 
           </div>
-        </div>
+        </title>
         <div id="right-image-container">
           <img
             src={ceramics}
@@ -80,10 +82,8 @@ const Home = () => {
       >
         "Art teaches us to feel good about ourselves and about the world around us. To see the beauty and endlessness of this wonderful world, one only needs to look through the eye of an artist." - Connie Parrish
       </Typography>
-      {/* <About />
-      <Testimonials />
-      <Gallery />
-      <Contact /> */}
+      <Box />
+      <TestimonialsSmall/>
     </div>
   )
 }
