@@ -13,19 +13,19 @@ const Box = () => {
                             <br />
                         </span>
                         <span className="[font-family:'Inter-Regular',Helvetica]">
-                            All Ages
+                            • All Ages
                             <br />
-                            Private Lessons
+                            • Private Lessons
                             <br />
-                            After School
+                            • After School
                             <br />
-                            Home School
+                            • Home School
                             <br />
-                            Birthday Parties
+                            • Birthday Parties
                             <br />
-                            Art Therapy
+                            • Art Therapy
                             <br />
-                            Meeting Special Needs
+                            • Meeting Special Needs
                         </span>
                     </p>
                     <p className="absolute w-[518px] top-[34px] left-[90px] [font-family:'Inter-Bold',Helvetica] font-normal text-black text-[32px] tracking-[0] leading-[normal]">
