@@ -83,8 +83,6 @@ const Home = () => {
         "Art teaches us to feel good about ourselves and about the world around us. To see the beauty and endlessness of this wonderful world, one only needs to look through the eye of an artist." - Connie Parrish
       </Typography>
       <Box />
-    
-
       <TestimonialsSmall/>
     </div>
   )

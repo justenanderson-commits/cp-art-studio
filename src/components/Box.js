@@ -1,8 +1,10 @@
 import React from "react";
+import sofia from "../assets/sofia.jpg"
+import dam from "../assets/denver_art_museum_group.jpg"
 
 const Box = () => {
     return (
-        <section className="w-[1140px] h-[1123px]">
+        <section className="lg:mt-20 w-[1140px] h-[1123px]">
             <div className="relative w-[1144px] h-[1123px] top-0 left-0">
                 <div className="relative w-[1140px] h-[1123px] bg-[#a0bfb5]">
                     <p className="absolute w-[353px] top-[714px] left-[741px] [font-family:'Inter-Bold',Helvetica] font-normal text-black text-[32px] tracking-[0] leading-[normal]">
@@ -66,13 +68,13 @@ const Box = () => {
                     </p>
                     <img
                         className="absolute w-[464px] h-[599px] top-[45px] left-[629px] object-cover"
-                        alt="Student with"
-                        src="student-with-painting.png"
+                        alt="Student with skull and flowers painting"
+                        src={ sofia }
                     />
                     <img
                         className="absolute w-[606px] h-[338px] top-[749px] left-[34px]"
-                        alt="Denver art museum"
-                        src="denver-art-museum-group.png"
+                        alt="Art group at the Denver art museum"
+                        src={ dam }
                     />
                 </div>
             </div>
