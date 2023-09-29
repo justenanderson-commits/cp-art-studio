@@ -7,7 +7,7 @@ const Box = () => {
         <section className="lg:mt-20 w-[1140px] h-[1123px]">
             <div className="relative w-[1144px] h-[1123px] top-0 left-0">
                 <div className="relative w-[1140px] h-[1123px] bg-[#a0bfb5]">
-                    <p className="absolute w-[353px] top-[714px] left-[741px] [font-family:'Inter-Bold',Helvetica] font-normal text-black text-[32px] tracking-[0] leading-[normal]">
+                    <p className="absolute w-[353px] top-[741px] left-[741px] [font-family:'Inter-Bold',Helvetica] font-normal text-black text-[32px] tracking-[0] leading-[normal]">
                         <span className="font-bold">
                             Art Lessons for:
                             <br />
