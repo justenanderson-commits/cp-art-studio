@@ -29,41 +29,41 @@ const Box = () => {
                         </span>
                     </p>
                     <p className="absolute w-[518px] top-[34px] left-[90px] [font-family:'Inter-Bold',Helvetica] font-normal text-black text-[32px] tracking-[0] leading-[normal]">
-                        <span className="font-bold">
+                        <span className="font-bold py-2">
                             Diverse Offerings Include:
                             <br />
                         </span>
-                        <span className="[font-family:'Inter-Regular',Helvetica]">
-                            Ceramics/Pottery
+                        <span className="m-4[font-family:'Inter-Regular',Helvetica]">
+                            • Ceramics/Pottery
                             <br />
-                            On-Site Ceramics Lab
+                            • On-Site Ceramics Lab
                             <br />
-                            Total ceramic sculpting process <br />
+                            • Total ceramic sculpting process <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (not prefabricated)
                             <br />
-                            Papier-Mache
+                            • Papier-Mache
                             <br />
-                            Mixed Media
+                            • Mixed Media
                             <br />
-                            Metal Tooling
+                            • Metal Tooling
                             <br />
-                            Paper Making
+                            • Paper Making
                             <br />
-                            Plaster
+                            • Plaster
                             <br />
-                            Painting - All Types
+                            • Painting - All Types
                             <br />
-                            Drawing
+                            • Drawing
                             <br />
-                            Print Making
+                            • Print Making
                             <br />
-                            Plein Air Experiences
+                            • Plein Air Experiences
                             <br />
-                            Museum Tours
+                            • Museum Tours
                             <br />
-                            Batik
+                            • Batik
                             <br />
-                            And More!
+                            • And More!
                         </span>
                     </p>
                     <img
